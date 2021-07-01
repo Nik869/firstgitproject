@@ -5,6 +5,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: "Flexo-Regular";
 }
 @font-face {
     font-family: "Flexo-Regular";
@@ -156,7 +157,6 @@ display: flex;
     background-color: #F5F7F6;
 }
 .exp_content{
-    border: 2px solid black;
     padding-top: 12%;
     text-align: center;
 }
@@ -171,7 +171,7 @@ display: flex;
     display: inline-block;
     margin-bottom: 70px;
 }
-.exp_content span{
+.exp_content .line{
     position: absolute;
     width: 1px;
     height: 40px;
@@ -181,7 +181,7 @@ display: flex;
     
 }
 .exp_content h6{
-    /* font-family: "Flexo-Bold"; */
+    font-family: "Flexo-Bold";
     font-weight: 900;
     color: var(--secondary);
 }
@@ -189,6 +189,283 @@ display: flex;
     margin-top: 30px;
     margin-bottom: 5%;
 }
+.exp_content  h5{
+    color: #39316b;
+    margin: 40px 0;
+}
+.exp_content h2{
+    font-family: "Flexo-Bold";
+    font-weight: 900;
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+.exp_content p{
+    margin-bottom: 30px;
+}
+.exp_content p .partPara{
+    font-family: "Flexo-Bold";
+    font-weight: 900;
+    color: var(--secondary);
+}
+.exp_content .expertise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 60px;
+
+}
+.exp_content .expertise .orangeText{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #f14703;
+    text-align: right;
+}
+
+
+.exp_content .expertise .expBtn{
+    display: inline-block;
+    background-color: #f14703;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Flexo-Bold";
+    padding: 5px 40px;
+    padding-left: 20px;
+    border: 2px solid #f14703;
+    
+}
+.expBtn{
+    display: inline-block;
+    background-color: #f14703;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Flexo-Bold";
+    padding: 5px 40px;
+    padding-left: 20px;
+    border: 2px solid #f14703;
+    position: relative;
+}
+.expBtn::after{
+    content: " ➜";
+    position: absolute;
+    top: 44%;
+    right: 13%;
+    transform: translateY(-25%);
+    font-size: 18px;
+    height: 100%;
+    width: 0;
+   color: white;
+   /* z-index: -1; */
+   display: block;
+   transition: all .2s linear; 
+   }
+.expertise{
+    text-align: center;
+}
+.expertise .expertise_text_icon{
+    margin-top: 5%;
+}
+.expertise h5{
+    color: var(--secondary);
+    margin-top: 20px;
+    margin-bottom: 7%;
+}
+.expertise{
+    font-family: "Flexo-Regular";
+    padding-bottom: 5%;
+}
+
+/* first expertise */
+.expertise .sketch{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+margin-bottom: 5%;
+}
+.expertise .sketch .sketchImage{
+    width: 500px;
+}
+.expertise .sketch .expertiseOne{
+    width: 300px;
+    text-align: left;
+}
+.expertise .sketch .expertiseOne h2,p{
+    color: #737086;
+}
+.expertise .sketch .expertiseOne h2{
+    font-family: "Flexo-Bold";
+}
+.expertise .sketch .expertiseOne h6{
+    color: var(--primary);
+}
+
+/* second expertise */
+.expertise .native{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    }
+    .expertise .native .nativeImage{
+        width: 500px;
+    }
+    .expertise .native .expertiseTwo{
+        width: 300px;
+        text-align: left;
+    }
+    .expertise .native .expertiseTwo h2,p{
+        color: #737086;
+    }
+    .expertise .native .expertiseTwo h2{
+        font-family: "Flexo-Bold";
+    }
+    .expertise .native .expertiseTwo h6{
+        color: var(--primary);
+    }
+
+
+    /* three expertise */
+.expertise .graphic
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    }
+    .expertise .graphic .graphicImage{
+        width: 500px;
+    }
+    .expertise .graphic .expertiseThree{
+        width: 300px;
+        text-align: left;
+    }
+    .expertise .graphic .expertiseThree h2,p{
+        color: #737086;
+    }
+    .expertise .graphic .expertiseThree h2{
+        font-family: "Flexo-Bold";
+    }
+    .expertise .graphic .expertiseThree h6{
+        color: var(--primary);
+    }
+    .expertise .orangeText{
+        margin: 10px 20px;
+        font-size: 20px;
+        font-weight: 800;
+        color: #f14703;
+        text-align: center;
+    }
+ 
+
+.ventures{
+    text-align: center;
+    background-color: #F5F7F6;
+    padding-bottom: 30px;
+}
+.ventures .ventures_icon{
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+.ventures h5{
+    color: rgb(102, 99, 99);
+    margin-bottom: 30px;
+}
+.ventures .themeOne .expBtn{
+    display: inline-block;
+    background-color: #f39923;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Flexo-Bold";
+    padding: 5px 40px;
+    padding-left: 20px;
+    border: 2px solid #f39923;
+}
+
+/* ventures dlide one */
+.ventures .themeOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F5F7F6;
+    padding-top: 20px;
+    }
+    .ventures .venturesThemes .themeOne .themeImage{
+        width: 500px;
+        margin: 10px;
+    }
+    .ventures .themeOne .themeContent{
+        width: 300px;
+        text-align: left;
+    }
+    .ventures .themeOne .themeContent h2,p{
+        color: #737086;
+    }
+    .ventures .themeOne .themeContent h2{
+        font-family: "Flexo-Bold";
+    }
+    .ventures .themeOne .themeContent h6{
+        color: var(--primary);
+    }
+
+    .ventures .owl-nav{
+        position: absolute;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: 100%;
+      }
+      .ventures .owl-nav .owl-next:hover{
+        background: none !important;
+        outline: none !important;
+        opacity: 1;
+        color: var(--primary);
+        transform: scale(1.2);
+      }
+      .ventures .owl-nav .owl-prev:hover{
+        background: none !important;
+        outline: none !important;
+        opacity: 1;
+        color: var(--primary);
+        transform: scale(1.2);
+      }
+      .ventures .owl-nav .owl-prev{
+        transition: all .2s linear;
+        position: absolute;
+       left: 46%;
+      }
+      .ventures .owl-nav .owl-next{
+        transition: all .2s linear;
+        position: absolute;
+        right: 46%;
+      } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

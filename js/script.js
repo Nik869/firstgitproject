@@ -31,3 +31,31 @@ window.addEventListener("scroll",function(){
     }
     
 })
+
+
+//ventures slide
+$(document).ready(function(){
+    $('.venturesThemes').owlCarousel({
+        items:1,
+        loop:true,
+        center:true,
+        nav:true,
+        dots:false,
+        navText:[`<i class="fas fa-long-arrow-alt-left"></i>`,`<i class="fas fa-long-arrow-alt-right"></i>`],
+        responsiveClass:true,
+        responsive:{
+            0:{
+               
+               
+            },
+            700:{
+                
+            },
+            1000:{
+                
+                
+            }
+        }
+    })
+})
+
