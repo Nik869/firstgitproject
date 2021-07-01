@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="867" height="792" viewBox="0 0 867 792">
+    <defs>
+        <circle id="a" cx="518" cy="518" r="518"/>
+    </defs>
+    <use fill="#A2A2A2" fill-rule="evenodd" opacity=".134" transform="translate(0 -244)" xlink:href="#a"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" viewBox="0 0 40 30">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#EDC286"/>
+            <stop offset="28.038%" stop-color="#D98F8B"/>
+            <stop offset="59.459%" stop-color="#CF7B92"/>
+            <stop offset="100%" stop-color="#C57CA1"/>
+        </linearGradient>
+    </defs>
+    <path fill="url(#a)" fill-rule="evenodd" d="M632.125 4809.5v3.625h4.738l-11.607 12.448-5.307-4.94-2.65-2.476-10.549 11.313v-19.97h-3.625v29H643v-3.625h-36.25v-.09l10.726-11.503 5.3 4.941 2.654 2.476 13.945-14.953v4.629H643V4809.5z" transform="translate(-603 -4809)"/>
+</svg>

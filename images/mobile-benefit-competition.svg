@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="60" viewBox="0 0 128 60">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F4C485"/>
+            <stop offset="31.759%" stop-color="#F4B881"/>
+            <stop offset="61.896%" stop-color="#E39092"/>
+            <stop offset="100%" stop-color="#F3A97D"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="98.081%">
+            <stop offset="0%" stop-color="#F2A77F"/>
+            <stop offset="55.247%" stop-color="#E29094"/>
+            <stop offset="100%" stop-color="#CD85B2"/>
+        </linearGradient>
+        <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F4C485"/>
+            <stop offset="31.759%" stop-color="#F4B881"/>
+            <stop offset="61.896%" stop-color="#E39092"/>
+            <stop offset="100%" stop-color="#F3A97D"/>
+        </linearGradient>
+        <linearGradient id="d" x1="50%" x2="50%" y1="0%" y2="98.081%">
+            <stop offset="0%" stop-color="#F2A77F"/>
+            <stop offset="55.247%" stop-color="#E29094"/>
+            <stop offset="100%" stop-color="#CD85B2"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g stroke-width="4">
+            <path stroke="url(#a)" d="M47.609 17.147c0 9.38-6.7 16.984-16.08 16.984-9.379 0-16.079-7.604-16.079-16.984 0-9.38 6.7-16.984 16.08-16.984 9.38 0 16.079 7.604 16.079 16.984z" transform="translate(62.787 2.362)"/>
+            <path stroke="url(#b)" d="M.776 54.792S9.053 34.167 30.288 34.13c21.235-.037 30.321 13.417 31.996 21.078 0 0-61.508-.185-61.508-.417z" transform="translate(62.787 2.362)"/>
+        </g>
+        <g stroke-width="2">
+            <path stroke="url(#c)" d="M26.355 9.492c0 5.192-3.709 9.402-8.901 9.402s-8.901-4.21-8.901-9.402C8.553 4.3 12.262.09 17.454.09s8.901 4.21 8.901 9.402z" transform="translate(34 1.895)"/>
+            <path stroke="url(#d)" d="M.43 30.331S5.01 18.914 16.766 18.894c11.755-.02 16.785 7.427 17.712 11.668 0 0-34.05-.102-34.05-.23z" transform="translate(34 1.895)"/>
+        </g>
+        <g stroke-width="2">
+            <path stroke="url(#c)" d="M26.355 9.492c0 5.192-3.709 9.402-8.901 9.402s-8.901-4.21-8.901-9.402C8.553 4.3 12.262.09 17.454.09s8.901 4.21 8.901 9.402z" transform="translate(1 25.5)"/>
+            <path stroke="url(#d)" d="M.43 30.331S5.01 18.914 16.766 18.894c11.755-.02 16.785 7.427 17.712 11.668 0 0-34.05-.102-34.05-.23z" transform="translate(1 25.5)"/>
+        </g>
+    </g>
+</svg>
