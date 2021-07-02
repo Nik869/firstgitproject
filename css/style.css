@@ -69,11 +69,18 @@ html{
     background-color: #e67e22;
 }
 .banner_content{
-    width: 100%;
-    position: absolute;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+    /* margin: 0 auto;
+    position: relative;
+    border: 2px solid red;
     left: 50%;
     top: 20%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
+    display: flex;
     
 }
 .shadow{
