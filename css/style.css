@@ -74,10 +74,8 @@ html{
     left: 50%;
     transform: translateX(-50%);
     top: 30%;
-   
     /* margin: 0 auto;
     position: relative;
-    border: 2px solid red;
     left: 50%;
     top: 20%;
     transform: translateX(-50%); */
@@ -90,7 +88,8 @@ html{
 }
 .main_content{
 display: flex;
-
+justify-content: center;
+width: 100%;
 }
 
 .banner_content .banner_image{
