@@ -74,11 +74,6 @@ html{
     left: 50%;
     transform: translateX(-50%);
     top: 30%;
-    /* margin: 0 auto;
-    position: relative;
-    left: 50%;
-    top: 20%;
-    transform: translateX(-50%); */
     display: flex;
     justify-content: center;
     

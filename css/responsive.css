@@ -286,6 +286,22 @@
     }
 
 }
+@media(max-width:576px)
+{
+    .banner_content{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:510px)
+{
+    .social_media{
+      display: none;
+    }
+    .banner_content .banner_image{
+       width: 100%;
+    }
+}
 
 
 
