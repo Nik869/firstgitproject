@@ -175,7 +175,8 @@
         width: 300px;
     }
     .social_media{
-      height: 60vh;
+      height: 60%;
+
     }
     .play,.inst,.msg{
         width: 100px;
@@ -210,6 +211,7 @@
 
 @media(max-width:426px)
 {
+   
     .banner_content .intr{
         width: 200px;
     }
@@ -223,7 +225,7 @@
         }
     .social_media{
         margin-top: 80px;
-            height: 40vh;
+            height: 60%;
     }
     .play,.inst,.msg{
             width: 80px;
